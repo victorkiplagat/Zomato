@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Metropolis';
-    src: url(/metropolis.light.otf);
+    src: url(./metropolis.light.otf);
 }
 *{
     padding: 0;

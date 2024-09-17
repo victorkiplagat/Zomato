@@ -15,7 +15,7 @@ a{
 }
 /*header*/
 header{
-    background-image: url(/images/header\ image.png);
+    background-image: url(./images/header\ image.png);
     background-position: center;
     background-size: 110%;
 }

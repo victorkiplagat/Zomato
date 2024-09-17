@@ -29,7 +29,7 @@ header{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-bottom: 65px;
+    padding-bottom: 90px;
     padding-top: 5px;
 }
 .up p{
@@ -49,26 +49,46 @@ header{
     font-weight: 300;
     color: white;
 }
+.centre .search-for{
+    display: flex;
+    background-color: white;
+}
 .centre img, .centre p{
     margin-bottom: 35px;
 }
 .centre img{
     margin-top: 40px;
 }
-.centre input{
-    border: none;
-    display: block;
-    width: 100%;
-    font: inherit;
-}
 .centre input:focus{
     outline: none;
 }
-.centre form{
-    background-color: white;
+.search-for a{
     display: flex;
+    gap: 20px;
+    margin: auto 0;
+}
+.search-for span{
+    position: relative;
+    right: 10px;
+    font-size: 14px;
+    color: rgb(134, 134, 134);
+}
+.search-for{
+    background-color: white;
+    width: 58%;
+    padding: 17px;
     border-radius: 5px;
-    padding: 15px 250px;
+}
+.search-for input{
+    position: relative;
+    left: 22px;
+    width: 200%;
+    border: none;
+    display: block;
+    font: inherit;
+}
+.search-for input::placeholder{
+    font-size: 14px;
 }
 .centre p{
     color: white;
